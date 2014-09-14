@@ -1,0 +1,25 @@
+{
+	"name": "alexsoft/ukraine-com-ua-api",
+	"description": "PHP library which helps you to interact with the ukraine.com.ua API",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Alexey Plekhanov",
+			"email": "alex@plekhanov.us"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"illuminate/support": "~5.0",
+		"guzzlehttp/guzzle": "~4.0"
+	},
+	"require-dev": {
+		"phpspec/phpspec" : "~2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"UkraineComUa\\": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}
