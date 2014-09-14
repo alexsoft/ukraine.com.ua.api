@@ -1,6 +1,7 @@
 {
 	"name": "alexsoft/ukraine-com-ua-api",
 	"description": "PHP library which helps you to interact with the ukraine.com.ua API",
+	"keywords": ["ukraine.com.ua", "api", "ukraine", "hosting", "cloud"],
 	"license": "MIT",
 	"authors": [
 		{
