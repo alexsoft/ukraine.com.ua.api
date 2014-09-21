@@ -3,8 +3,16 @@ namespace UkraineComUa\Adapters;
 
 abstract class BaseAdapter {
 
+	/**
+	 * email
+	 * @var string
+	 */
 	protected $authLogin;
 
+	/**
+	 * token
+	 * @var string
+	 */
 	protected $authToken;
 
 	protected $format = 'json';

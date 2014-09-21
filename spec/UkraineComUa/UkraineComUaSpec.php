@@ -7,8 +7,8 @@ use Prophecy\Argument;
 
 class UkraineComUaSpec extends ObjectBehavior
 {
-	public function it_is_initializable()
-	{
+
+	public function it_is_initializable() {
 		$this->shouldHaveType('UkraineComUa\UkraineComUa');
 	}
 
